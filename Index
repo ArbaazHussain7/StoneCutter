@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stone Cutter Services - Custom Stone Work, Granite, Marble & More">
+    <title>Stone Cutter Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Stone Cutter Services</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h2>Quality Stone Cutting and Custom Work</h2>
+            <p>We specialize in granite, marble, and custom stone services for homes and businesses. Bring your vision to life!</p>
+            <a href="#contact" class="cta-button">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Custom Stone Cutting</h3>
+                <p>We provide precision cutting for all types of stone, including granite, marble, and quartz.</p>
+            </div>
+            <div class="service-item">
+                <h3>Countertops & Backsplashes</h3>
+                <p>Transform your kitchen and bathroom with elegant, durable stone countertops and backsplashes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Stone Repair & Restoration</h3>
+                <p>We offer stone repair and restoration services to bring your surfaces back to life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>With over 10 years of experience, we are dedicated to delivering high-quality stone cutting services. Our team works with a wide variety of stone materials to create custom pieces that meet your specific needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mnqdpgoz" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Stone Cutter Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
